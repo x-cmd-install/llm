@@ -1,0 +1,176 @@
+about:
+  description: "Access large language models from the command-line"
+  license: Apache-2.0
+  homepage: https://llm.datasette.io
+  head: 2f49eec
+  archived: false
+  latestVersion: "0.34"
+  collectedAt: 2026-09-07T04:51:50Z
+timeline:
+  created: 2023-04-01
+  lastCommit: 2026-09-02
+  lastRelease: 2026-09-02
+popularity:
+  star: 12472
+  watcher: 64
+  fork: 979
+  release: 70
+  contributor: 69
+  pullRequest: 581
+  issue: 983
+language:
+  Python: 1225870
+  Just: 972
+  Shell: 929
+totalBytes: 1227771
+recent:
+  last30d:
+    since: 2026-08-08
+    release: 3
+    mergedPR: 11
+    openPR: 34
+    closedIssue: 13
+    openIssue: 5
+    commit: 28
+  last60d:
+    since: 2026-07-09
+    release: 7
+    mergedPR: 25
+    openPR: 62
+    closedIssue: 31
+    openIssue: 8
+    commit: 170
+  last90d:
+    since: 2026-06-09
+    release: 8
+    mergedPR: 27
+    openPR: 84
+    closedIssue: 34
+    openIssue: 10
+    commit: 188
+  last180d:
+    since: 2026-03-11
+    release: 14
+    mergedPR: 37
+    openPR: 132
+    closedIssue: 45
+    openIssue: 24
+    commit: 285
+  last360d:
+    since: 2025-09-12
+    release: 15
+    mergedPR: 41
+    openPR: 168
+    closedIssue: 55
+    openIssue: 57
+    commit: 304
+  last720d:
+    since: 2024-09-17
+    release: 43
+    mergedPR: 119
+    openPR: 231
+    closedIssue: 309
+    openIssue: 265
+    commit: 753
+total:
+  release: 70
+  mergedPR: 167
+  openPR: 267
+  closedIssue: 560
+  openIssue: 423
+  commit: 1278
+---
+path: /home/runner/.x-repo/github.com/simonw/llm
+collectedAt: 2026-09-07T04:51:52Z
+loc:
+  Python:
+    code: 30795
+    comments: 1547
+    blanks: 4034
+    files: 52
+  Yaml:
+    code: 3012
+    comments: 0
+    blanks: 0
+    files: 12
+  Toml:
+    code: 87
+    comments: 1
+    blanks: 7
+    files: 3
+  Sh:
+    code: 23
+    comments: 5
+    blanks: 1
+    files: 1
+  Html:
+    code: 14
+    comments: 0
+    blanks: 2
+    files: 1
+  Makefile:
+    code: 12
+    comments: 6
+    blanks: 5
+    files: 1
+  Ini:
+    code: 7
+    comments: 0
+    blanks: 2
+    files: 2
+  Autoconf:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 6749
+    blanks: 2196
+    files: 30
+  Text:
+    code: 0
+    comments: 7
+    blanks: 0
+    files: 1
+total:
+  code: 36320
+  comments: 8386
+  blanks: 6381
+  files: 104
+---
+
+---
+eget:
+  collectedAt: 2026-09-07T04:51:53+00:00
+  platform:
+    darwin/arm64:
+      name:  null
+      url:   null
+      size:  null
+      score: null
+    darwin/amd64:
+      name:  null
+      url:   null
+      size:  null
+      score: null
+    linux/arm64:
+      name:  null
+      url:   null
+      size:  null
+      score: null
+    linux/amd64:
+      name:  null
+      url:   null
+      size:  null
+      score: null
+    win/arm64:
+      name:  null
+      url:   null
+      size:  null
+      score: null
+    win/amd64:
+      name:  null
+      url:   null
+      size:  null
+      score: null
