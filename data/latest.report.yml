@@ -5,13 +5,13 @@ about:
   head: 1df47dd
   archived: false
   latestVersion: "0.35"
-  collectedAt: 2026-09-08T02:17:18Z
+  collectedAt: 2026-09-08T04:57:01Z
 timeline:
   created: 2023-04-01
   lastCommit: 2026-09-08
   lastRelease: 2026-09-07
 popularity:
-  star: 12471
+  star: 12474
   watcher: 64
   fork: 978
   release: 71
@@ -81,7 +81,7 @@ total:
   commit: 1288
 ---
 path: /home/runner/.x-repo/github.com/simonw/llm
-collectedAt: 2026-09-08T02:17:21Z
+collectedAt: 2026-09-08T04:57:03Z
 loc:
   Python:
     code: 30843
