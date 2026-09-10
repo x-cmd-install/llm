@@ -7,7 +7,7 @@ about:
   latestVersion: "0.35"
   latestRelease: "0.35"
   latestPrerelease: "0.32rc2"
-  collectedAt: 2026-09-10T05:01:13Z
+  collectedAt: 2026-09-10T16:53:06Z
 timeline:
   created: 2023-04-01
   lastCommit: 2026-09-08
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-07
   lastPrerelease: 2026-07-30
 popularity:
-  star: 12482
+  star: 12485
   watcher: 64
   fork: 980
   release: 71
@@ -85,7 +85,7 @@ total:
   commit: 1288
 ---
 path: /home/runner/.x-repo/github.com/simonw/llm
-collectedAt: 2026-09-10T05:01:15Z
+collectedAt: 2026-09-10T16:53:09Z
 loc:
   Python:
     code: 30843
