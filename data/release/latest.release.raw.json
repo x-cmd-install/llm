@@ -43,8 +43,8 @@
   "body": "- New OpenAI model: `gpt-6-astra` for [GPT-6 Astra](https://openai.com/index/gpt-6-astra/).",
   "reactions": {
     "url": "https://api.github.com/repos/simonw/llm/releases/384365484/reactions",
-    "total_count": 4,
-    "+1": 1,
+    "total_count": 5,
+    "+1": 2,
     "-1": 0,
     "laugh": 0,
     "hooray": 2,
