@@ -37,22 +37,22 @@ Total: **34,487** lines of code across **71** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 12,570 · **Forks**: 1,006 · **Open issues**: 998 · **Contributors**: 76
+- **Stars**: 12,573 · **Forks**: 1,009 · **Open issues**: 1,000 · **Contributors**: 76
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 175 · **Open PRs**: 284 · **Closed issues**: 568 · **Open issues**: 430 · **Commits**: 1300
+- **Releases**: 72 · **Merged PRs**: 175 · **Open PRs**: 285 · **Closed issues**: 568 · **Open issues**: 432 · **Commits**: 1300
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 3 | 9 | 38 | 8 | 10 | 22 |
-| last60d | 2026-08-01 | 6 | 23 | 57 | 25 | 14 | 56 |
-| 90d | 2026-07-02 | 9 | 33 | 91 | 40 | 17 | 196 |
-| last180d | 2026-04-03 | 14 | 45 | 137 | 48 | 31 | 294 |
-| 360d | 2025-10-05 | 17 | 49 | 181 | 61 | 58 | 326 |
-| last720d | 2024-10-10 | 45 | 126 | 249 | 317 | 269 | 775 |
+| 30d | 2026-09-01 | 3 | 8 | 38 | 8 | 12 | 22 |
+| last60d | 2026-08-02 | 6 | 21 | 58 | 23 | 16 | 56 |
+| 90d | 2026-07-03 | 9 | 33 | 91 | 40 | 19 | 196 |
+| last180d | 2026-04-04 | 14 | 45 | 138 | 47 | 33 | 294 |
+| 360d | 2025-10-06 | 17 | 49 | 182 | 61 | 60 | 326 |
+| last720d | 2024-10-11 | 45 | 126 | 250 | 317 | 271 | 775 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:46:56Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:16:19Z._
