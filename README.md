@@ -14,11 +14,11 @@ x install llm
 
 ## Code insight
 
-Total: **35,556** lines of code across **73** files in the top 5 languages.
+Total: **35,660** lines of code across **73** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 32,398 | 1,570 | 4,312 | 56 |
+| Python | 32,502 | 1,570 | 4,323 | 56 |
 | Yaml | 3,012 | 0 | 0 | 12 |
 | Toml | 89 | 1 | 8 | 3 |
 | Sh | 23 | 5 | 1 | 1 |
@@ -33,26 +33,26 @@ Total: **35,556** lines of code across **73** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.36` (2026-09-22)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-10-21
 
 ## Popularity
 
-- **Stars**: 12,648 · **Forks**: 1,054 · **Open issues**: 1,011 · **Contributors**: 81
+- **Stars**: 12,650 · **Forks**: 1,058 · **Open issues**: 1,011 · **Contributors**: 82
 
 ## Totals (cumulative)
 
-- **Releases**: 72 · **Merged PRs**: 185 · **Open PRs**: 314 · **Closed issues**: 573 · **Open issues**: 438 · **Commits**: 1313
+- **Releases**: 72 · **Merged PRs**: 186 · **Open PRs**: 316 · **Closed issues**: 574 · **Open issues**: 437 · **Commits**: 1314
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 1 | 10 | 52 | 6 | 12 | 13 |
-| last60d | 2026-08-22 | 4 | 22 | 81 | 13 | 21 | 43 |
-| 90d | 2026-07-23 | 8 | 43 | 100 | 41 | 22 | 163 |
-| last180d | 2026-04-24 | 14 | 54 | 159 | 50 | 36 | 270 |
-| 360d | 2025-10-26 | 17 | 59 | 212 | 65 | 58 | 339 |
-| last720d | 2024-10-31 | 43 | 134 | 277 | 315 | 271 | 766 |
+| 30d | 2026-09-22 | 1 | 11 | 54 | 4 | 11 | 14 |
+| last60d | 2026-08-23 | 3 | 23 | 79 | 13 | 19 | 44 |
+| 90d | 2026-07-24 | 8 | 44 | 101 | 41 | 22 | 164 |
+| last180d | 2026-04-25 | 13 | 55 | 160 | 50 | 36 | 271 |
+| 360d | 2025-10-27 | 17 | 60 | 213 | 65 | 58 | 340 |
+| last720d | 2024-11-01 | 43 | 135 | 279 | 316 | 270 | 767 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for llm lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T04:55:04Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T04:54:23Z._
