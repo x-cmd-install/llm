@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/simonw/llm/releases/433248481",
-  "assets_url": "https://api.github.com/repos/simonw/llm/releases/433248481/assets",
-  "upload_url": "https://uploads.github.com/repos/simonw/llm/releases/433248481/assets{?name,label}",
-  "html_url": "https://github.com/simonw/llm/releases/tag/0.37.1",
-  "id": 433248481,
+  "url": "https://api.github.com/repos/simonw/llm/releases/441989969",
+  "assets_url": "https://api.github.com/repos/simonw/llm/releases/441989969/assets",
+  "upload_url": "https://uploads.github.com/repos/simonw/llm/releases/441989969/assets{?name,label}",
+  "html_url": "https://github.com/simonw/llm/releases/tag/0.37.2",
+  "id": 441989969,
   "author": {
     "login": "simonw",
     "id": 9599,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOJRhX7M4Z0tjh",
-  "tag_name": "0.37.1",
+  "node_id": "RE_kwDOJRhX7M4aWDtR",
+  "tag_name": "0.37.2",
   "target_commitish": "main",
-  "name": "0.37.1",
+  "name": "0.37.2",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-03T21:41:32Z",
-  "updated_at": "2026-11-03T21:41:42Z",
-  "published_at": "2026-11-03T21:41:42Z",
+  "created_at": "2026-11-11T17:15:31Z",
+  "updated_at": "2026-11-11T17:19:52Z",
+  "published_at": "2026-11-11T17:19:52Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/simonw/llm/tarball/0.37.1",
-  "zipball_url": "https://api.github.com/repos/simonw/llm/zipball/0.37.1",
-  "body": "- `llm openai endpoint add` now works when `extra-openai-models.yaml` holds a list written in square brackets, such as the `[]` left behind by removing the last saved endpoint. Previously it wrote invalid YAML that stopped LLM from loading any models until the file was fixed by hand. Thanks, [Steven Huang](https://github.com/remote-controlled-man). [#1845](https://github.com/simonw/llm/pull/1845)\r\n- Passing both `system=` and `messages=` to `prompt()` or `chain()` in the Python API no longer drops the system prompt for models that build their requests from `prompt.messages`, including the default OpenAI Chat models. [#1849](https://github.com/simonw/llm/issues/1849)\r\n- Non-streaming prompts, such as those run with `--no-stream`, no longer crash with an `AttributeError` when an OpenAI-compatible server leaves `usage` out of its response. Thanks, [Tao An](https://github.com/tao-hpu). [#1697](https://github.com/simonw/llm/issues/1697), [#1698](https://github.com/simonw/llm/pull/1698)\r\n- `llm embed --format blob` now outputs exactly the bytes of the embedding. It previously added a newline at the end, which made the output one byte too long to decode. Thanks, [Arjan Mossel](https://github.com/ar-jan). [#1848](https://github.com/simonw/llm/pull/1848)\r\n- `llm logs` no longer crashes with `JSON cannot hold BLOB values` when a tool result logged by an LLM version before 0.32 has an attachment stored in the database. Thanks, [XQ](https://github.com/XXXXXQ-0206). [#1775](https://github.com/simonw/llm/pull/1775)\r\n- `llm logs -q` no longer misses words at the boundary between two [text parts](https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#how-events-group-into-parts), for example in a response that interleaves text with reasoning or tool calls.\r\n- When a prompt passes several user messages using `messages=`, `llm logs -q` now searches all of them rather than only the last one."
+  "tarball_url": "https://api.github.com/repos/simonw/llm/tarball/0.37.2",
+  "zipball_url": "https://api.github.com/repos/simonw/llm/zipball/0.37.2",
+  "body": "- **Security:** Models in `extra-openai-models.yaml` with an `api_base` and an `api_key_name` no longer send the `OPENAI_API_KEY` environment variable to that endpoint when the named key has not been stored. They now fail with a `No key found` error instead. [GHSA-v9h7-jj4g-f862](https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862)\r\n- **Security:** Models with `responses: true` and an `api_base` no longer send your stored `openai` key or the `OPENAI_API_KEY` environment variable to that endpoint when run with `-o chat_completions 1`. This also applied to `llm openai endpoint URL --responses -o chat_completions 1` run without `--key`. [GHSA-r639-rr7r-x72w](https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w)\r\n- `-a/--attachment` and `--at/--attachment-type` now work with pipes such as Bash process substitution, so `llm \"Describe this image\" -a <(cat image.png)` works. Previously LLM could not detect the type of a piped attachment, and `--at` could lose its content before it was sent. Thanks, [Steven Huang](https://github.com/remote-controlled-man). [#971](https://github.com/simonw/llm/issues/971), [#1857](https://github.com/simonw/llm/pull/1857)\r\n- An empty attachment, such as `llm -a -` with nothing on standard input or `-a` with an empty file, now shows the usual `Could not determine mimetype` error instead of a traceback. Thanks, [Ansansan](https://github.com/Ansansan). [#1853](https://github.com/simonw/llm/issues/1853), [#1854](https://github.com/simonw/llm/pull/1854)\r\n- `llm openai endpoint add` no longer breaks `extra-openai-models.yaml` when the existing list is indented or ends with a `...` document end marker. Previously the file stopped parsing, so LLM could not load any models until it was fixed by hand. Thanks, [ledd](https://github.com/wsj040303). [#1864](https://github.com/simonw/llm/issues/1864), [#1865](https://github.com/simonw/llm/pull/1865)\r\n- `llm openai endpoint list --json` no longer crashes with a `TypeError` when `extra-openai-models.yaml` contains an unquoted date, such as `api_version: 2024-02-01`. Thanks, [Steven Huang](https://github.com/remote-controlled-man). [#1850](https://github.com/simonw/llm/pull/1850)\r\n- In the Python API, reopening an embedding collection with a `model=` other than the one it was created with now uses the collection's stored model. Previously new embeddings were calculated with the supplied model, mixing vectors from two models in one collection. Thanks, [Chen Yufeiyang](https://github.com/feiiiiii5). [#1859](https://github.com/simonw/llm/pull/1859)"
 }
