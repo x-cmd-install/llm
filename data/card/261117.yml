@@ -1,0 +1,147 @@
+about:
+  description: "Access large language models from the command-line"
+  license: Apache-2.0
+  homepage: https://llm.datasette.io
+  head: 2216eb1
+  archived: false
+  latestVersion: "0.37.3"
+  latestRelease: "0.37.3"
+  latestPrerelease: "0.32rc2"
+  collectedAt: 2026-11-17T08:24:16Z
+timeline:
+  created: 2023-04-01
+  lastCommit: 2026-11-16
+  lastVersion: 2026-11-16
+  lastRelease: 2026-11-16
+  lastPrerelease: 2026-07-30
+popularity:
+  star: 12770
+  watcher: 60
+  fork: 1095
+  release: 76
+  contributor: 100
+  pullRequest: 753
+  issue: 1021
+language:
+  Python: 1389279
+  Shell: 2756
+  Just: 972
+totalBytes: 1393007
+recent:
+  last30d:
+    since: 2026-10-18
+    release: 4
+    mergedPR: 25
+    openPR: 66
+    closedIssue: 8
+    openIssue: 5
+    commit: 51
+  last60d:
+    since: 2026-09-18
+    release: 5
+    mergedPR: 41
+    openPR: 109
+    closedIssue: 20
+    openIssue: 11
+    commit: 66
+  last90d:
+    since: 2026-08-19
+    release: 9
+    mergedPR: 57
+    openPR: 132
+    closedIssue: 29
+    openIssue: 18
+    commit: 96
+  last180d:
+    since: 2026-05-21
+    release: 14
+    mergedPR: 81
+    openPR: 195
+    closedIssue: 61
+    openIssue: 24
+    commit: 285
+  last360d:
+    since: 2025-11-22
+    release: 21
+    mergedPR: 90
+    openPR: 253
+    closedIssue: 80
+    openIssue: 47
+    commit: 387
+  last720d:
+    since: 2024-11-27
+    release: 40
+    mergedPR: 157
+    openPR: 318
+    closedIssue: 316
+    openIssue: 246
+    commit: 779
+total:
+  release: 76
+  mergedPR: 216
+  openPR: 360
+  closedIssue: 595
+  openIssue: 426
+  commit: 1366
+---
+path: /home/runner/.x-repo/github.com/simonw/llm
+collectedAt: 2026-11-17T08:24:20Z
+loc:
+  Python:
+    code: 34806
+    comments: 1659
+    blanks: 4620
+    files: 59
+  Yaml:
+    code: 3012
+    comments: 0
+    blanks: 0
+    files: 12
+  Toml:
+    code: 89
+    comments: 1
+    blanks: 8
+    files: 3
+  Sh:
+    code: 51
+    comments: 24
+    blanks: 7
+    files: 2
+  Html:
+    code: 14
+    comments: 0
+    blanks: 2
+    files: 1
+  Makefile:
+    code: 12
+    comments: 6
+    blanks: 5
+    files: 1
+  Ini:
+    code: 7
+    comments: 0
+    blanks: 2
+    files: 2
+  Autoconf:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 6882
+    blanks: 2302
+    files: 30
+  Text:
+    code: 0
+    comments: 7
+    blanks: 0
+    files: 1
+total:
+  code: 40434
+  comments: 8653
+  blanks: 7084
+  files: 112
+---
+
+---
